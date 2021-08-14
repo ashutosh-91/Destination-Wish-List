@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vacation Destinations WishList</title>
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+
+	<!-- Our CSS -->
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Visiting places you want to</h1>
+        <p>Name the places you want to visit by adding and submitting the form</p>
+    </header>
+
+    <main>
+        <form action="#" id="destination_detail_form">
+         <label for="name">Destination Name</label>
+         <input type="text" id="name" required>
+
+         <label for="location">Location Name</label>
+         <input type="text" id="location" required>
+
+         
+         <label for="photo">Photo Url</label>
+         <input type="text" id="photo" >
+
+         <label for="description" >Description</label>
+         <textarea  id="description"></textarea>
+         <button type="submit">Add to list</button>
+
+        </form>
+
+        <article>
+            <h2 id="title">Destination Title</h2>
+            <div id="destination_container"></div>
+
+            <div class="card">
+                <!-- <img src="./signpost.jpg" alt=""> -->
+                <!-- <div class="card-body">
+                    <h3>Destination Name</h3>
+                    <h4>Destination Location</h4>
+                    <p class="crad-text">Destination text</p>
+                    <button>Remove</button>
+                </div> -->
+            </div>
+        </article>
+    </main>
+    
+
+    <!-- Our JavaScript -->
+    <script src="./script.js"></script>
+</body>
+
+</html>
